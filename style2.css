@@ -1,0 +1,32 @@
+.song {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: inherit;
+}
+
+.song h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.song .lyrics {
+    font-size: 18px;
+    text-align: left;
+}
+
+.song .lyrics p {
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Add padding between paragraphs */
+}
+
+@media (max-width: 600px) {
+    .song .lyrics {
+        font-size: 16px;
+    }
+}

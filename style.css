@@ -1,0 +1,79 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 131, 105);
+    color: #070707;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #3a3939;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+header h1, footer h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+header h2, footer h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 1em;
+}
+
+nav a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(12, 74, 243);
+}
+
+img.image-container {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px 0;
+}
+
+img.image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+.h2{
+    text-align: center;
+}
